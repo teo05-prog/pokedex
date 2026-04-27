@@ -1,0 +1,66 @@
+﻿.hero-heading {
+  padding: 2rem 2rem 1.5rem 2rem;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-heading h1 {
+  font-size: 2.8rem;
+  margin: 0 0 0.75rem 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-heading p {
+  font-size: 1.1rem;
+  color: #666;
+  margin: 0;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+@media (max-width: 1024px) {
+  .hero-heading {
+    padding: 1.75rem 2rem 1.25rem 2rem;
+  }
+
+  .hero-heading h1 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-heading {
+    padding: 1.2rem 1rem;
+  }
+
+  .hero-heading h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-heading p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-heading {
+    padding: 1rem 0.75rem;
+  }
+
+  .hero-heading h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .hero-heading p {
+    font-size: 0.85rem;
+  }
+}
