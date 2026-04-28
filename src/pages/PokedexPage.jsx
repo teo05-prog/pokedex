@@ -29,7 +29,7 @@ export default function PokedexPage() {
             try {
                 if (selectedType) {
                     // Fetch by type
-                    const response = await fetch(`${API_BASE}/type/${selectedType}`, {
+                    const response = await fetch(`https://pokeapi.co/api/v2/type/${selectedType}`, {
                         signal: controller.signal,
                     });
 
