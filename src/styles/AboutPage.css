@@ -1,0 +1,123 @@
+﻿.about-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #667eea 0%, #764ba2 50%, #6a4c93 100%);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.about-content {
+  flex: 1;
+  padding: 3rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.detail-container {
+  background: white;
+  border-radius: 16px;
+  padding: 3rem;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+  max-width: 900px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.detail-container h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.detail-container h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.detail-container p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.detail-container a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.detail-container a:hover {
+  color: #764ba2;
+  text-decoration: underline;
+}
+
+.detail-container ul {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.detail-container li {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    padding: 2rem 1rem;
+  }
+
+  .detail-container {
+    padding: 2rem;
+  }
+
+  .detail-container h2 {
+    font-size: 2rem;
+  }
+
+  .detail-container h3 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+  }
+
+  .detail-container p,
+  .detail-container li {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-content {
+    padding: 1.5rem 0.75rem;
+  }
+
+  .detail-container {
+    padding: 1.5rem;
+    border-radius: 12px;
+  }
+
+  .detail-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .detail-container h3 {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .detail-container ul {
+    margin-left: 1.5rem;
+  }
+}
